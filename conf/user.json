@@ -2,9 +2,9 @@
 [
   {
     "welcome": "用户一，这是一条欢迎语，每次打卡前会打印这句话，用来标记当前打卡用户，如：正在为 *** 打卡......",
-    "phone": "",  // 完美校园登录账号
-    "password": "",  // 完美校园登录密码
-    "device_id": "",  // 已验证完美校园登录设备ID，获取方式为下载蓝奏云链接中的 RegisterDeviceID.zip
+    "phone": "18568860672",  // 完美校园登录账号
+    "password": "liu0912kx",  // 完美校园登录密码
+    "device_id": "8096276379306078",  // 已验证完美校园登录设备ID，获取方式为下载蓝奏云链接中的 RegisterDeviceID.zip
     "ykt_score": true,  // 粮票收集，默认开启，打卡完后自动签到收集粮票
     "healthy_checkin": {
       "one_check": {  // 第一类健康打卡
@@ -162,11 +162,11 @@
         "key": ""
       },
       "wechat_enterprise": { //  企业微信：https://work.weixin.qq.com/
-        "enable": false,
-        "corp_id": "", // 企业 ID
-        "corp_secret":  "", // 自建应用 Secret
-        "agent_id":  "",  // 自建应用 ID
-        "to_user": ""  // 接收者用户，多用户用|分割，所有用户填写 @all
+        "enable": true,
+        "corp_id": "ww40f183fd0ffd4e2e", // 企业 ID
+        "corp_secret":  "BOXpyNoI1c3DoXfcnOJmdPDF68S2CD5JA0OAcDmps8g", // 自建应用 Secret
+        "agent_id":  "1000002",  // 自建应用 ID
+        "to_user": "@all"  // 接收者用户，多用户用|分割，所有用户填写 @all
       }
     }
   }
