@@ -8,7 +8,7 @@
     "ykt_score": true,  // 粮票收集，默认开启，打卡完后自动签到收集粮票
     "healthy_checkin": {
       "one_check": {  // 第一类健康打卡
-        "enable": false,  // true 为打开，false 为关闭
+        "enable": true,  // true 为打开，false 为关闭
         // 以下为数据修改，如果数据获取出现问题，请抓包修改对应项
         "post_json": {
           "areaStr": "",
@@ -78,10 +78,10 @@
       },
       "wechat_enterprise": { //  企业微信：https://work.weixin.qq.com/
         "enable": false,
-        "corp_id": "", // 企业 ID
-        "corp_secret":  "", // 自建应用 Secret
-        "agent_id":  "",  // 应用 ID
-        "to_user": ""  // 接收者用户，多用户用|分割，所有用户填写 @all
+        "corp_id": "ww40f183fd0ffd4e2e", // 企业 ID
+        "corp_secret":  "BOXpyNoI1c3DoXfcnOJmdPDF68S2CD5JA0OAcDmps8g", // 自建应用 Secret
+        "agent_id":  "1000002",  // 应用 ID
+        "to_user": "@all"  // 接收者用户，多用户用|分割，所有用户填写 @all
       }
     }
   },
